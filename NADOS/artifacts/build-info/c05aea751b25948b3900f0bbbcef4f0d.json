@@ -1,0 +1,354 @@
+{
+	"id": "c05aea751b25948b3900f0bbbcef4f0d",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.0",
+	"solcLongVersion": "0.8.0+commit.c7dfd78e",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"NADOS/14_enum.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity 0.8.0;\r\n\r\ncontract loops{\r\n\r\n    enum status {\r\n        pen ,shipped , accepted , rejec\r\n    }\r\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"NADOS/14_enum.sol": {
+				"loops": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"NADOS/14_enum.sol\":61:148  contract loops{\r... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"NADOS/14_enum.sol\":61:148  contract loops{\r... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa264697066735822122057b97d2dc6118bc57f3a78d72c1d697f736ce709be324ed37d51f86e7af6a0ca64736f6c63430008000033\n}\n",
+						"bytecode": {
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122057b97d2dc6118bc57f3a78d72c1d697f736ce709be324ed37d51f86e7af6a0ca64736f6c63430008000033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 JUMPI 0xB9 PUSH30 0x2DC6118BC57F3A78D72C1D697F736CE709BE324ED37D51F86E7AF6A0CA64 PUSH20 0x6F6C634300080000330000000000000000000000 ",
+							"sourceMap": "61:87:0:-:0;;;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "6080604052600080fdfea264697066735822122057b97d2dc6118bc57f3a78d72c1d697f736ce709be324ed37d51f86e7af6a0ca64736f6c63430008000033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 JUMPI 0xB9 PUSH30 0x2DC6118BC57F3A78D72C1D697F736CE709BE324ED37D51F86E7AF6A0CA64 PUSH20 0x6F6C634300080000330000000000000000000000 ",
+							"sourceMap": "61:87:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12600",
+								"executionCost": "66",
+								"totalCost": "12666"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 61,
+									"end": 148,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a264697066735822122057b97d2dc6118bc57f3a78d72c1d697f736ce709be324ed37d51f86e7af6a0ca64736f6c63430008000033",
+									".code": [
+										{
+											"begin": 61,
+											"end": 148,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 61,
+											"end": 148,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 61,
+											"end": 148,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 61,
+											"end": 148,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 61,
+											"end": 148,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 61,
+											"end": 148,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							}
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"NADOS/14_enum.sol\":\"loops\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"NADOS/14_enum.sol\":{\"keccak256\":\"0xa29c8c8ef5cc10d8f1f65923387f84fe6aed9b86c47805e53f41d21c166f1f5a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1163330fcfd5f5896868af83079c85b21c1f589764978b119ddcbd10a2ea0528\",\"dweb:/ipfs/QmZ88fFKsiMcsEyJyDjRoKA7A9cw9ri7BisjA5D6qKwXcT\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"NADOS/14_enum.sol": {
+				"ast": {
+					"absolutePath": "NADOS/14_enum.sol",
+					"exportedSymbols": {
+						"loops": [
+							7
+						]
+					},
+					"id": 8,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"0.8",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "35:22:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 7,
+							"linearizedBaseContracts": [
+								7
+							],
+							"name": "loops",
+							"nodeType": "ContractDefinition",
+							"nodes": [
+								{
+									"canonicalName": "loops.status",
+									"id": 6,
+									"members": [
+										{
+											"id": 2,
+											"name": "pen",
+											"nodeType": "EnumValue",
+											"src": "107:3:0"
+										},
+										{
+											"id": 3,
+											"name": "shipped",
+											"nodeType": "EnumValue",
+											"src": "112:7:0"
+										},
+										{
+											"id": 4,
+											"name": "accepted",
+											"nodeType": "EnumValue",
+											"src": "122:8:0"
+										},
+										{
+											"id": 5,
+											"name": "rejec",
+											"nodeType": "EnumValue",
+											"src": "133:5:0"
+										}
+									],
+									"name": "status",
+									"nodeType": "EnumDefinition",
+									"src": "84:61:0"
+								}
+							],
+							"scope": 8,
+							"src": "61:87:0"
+						}
+					],
+					"src": "35:113:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

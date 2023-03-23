@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NADOS/26_hash_function.sol": "hashf"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NADOS/26_hash_function.sol": {
+			"keccak256": "0x0dfa3725404b178ff5f8255ac6d1c265b25c362f8cc98c56cfda4c2a00748f4e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0d13dee252183fd09cb177db985a38db268cd7a20d9790b2ac73d05e2babfcec",
+				"dweb:/ipfs/Qmd3jwVpkNWxNNmpXRdcQL5MkoLUQYZ8NVso23z8SDzKJf"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "fun",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NADOS/9_if_else.sol": "if_else"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NADOS/9_if_else.sol": {
+			"keccak256": "0xa05904954e404f617834b23225a4003b0f9cc8a1e466bf658bb36f94162076d8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b7d03d01ede2196ece79b0ae7ba17f17057f63f6a07d4757cd52075493be6f76",
+				"dweb:/ipfs/QmdyXkAipptihAxf4jLk6AijQCtpsYTD9AWWGL7MZtceUV"
+			]
+		}
+	},
+	"version": 1
+}

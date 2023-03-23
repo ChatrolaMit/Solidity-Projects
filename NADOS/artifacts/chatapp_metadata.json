@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"name": "chat",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to_",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "message_",
+						"type": "string"
+					}
+				],
+				"name": "sendmess",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NADOS/20_events.sol": "chatapp"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NADOS/20_events.sol": {
+			"keccak256": "0x2c272b4ac26a257deb04b7eb90935ef20b376b61402d9aa89359c538667f8f7e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b5fc236df356e28ed81fe2711ce5ff158a5913eee632729e14676e054d4ce6c6",
+				"dweb:/ipfs/Qmbqp7hHano3kEGekHc3WvcSJHz9DCd1LU5WtP3Cq2grss"
+			]
+		}
+	},
+	"version": 1
+}

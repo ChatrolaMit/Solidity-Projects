@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"name": "log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "fun1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fun2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NADOS/21_calling_parent_function.sol": "b"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NADOS/21_calling_parent_function.sol": {
+			"keccak256": "0x183ae72ea02938084480ffe7fe50ee6e60a362f4b203777892019961f20b763b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://895ceffa181e15d7ced50dab41d7c979ecdbd7ad5040bcc206f6d854f05e602d",
+				"dweb:/ipfs/QmX6UYBxk48A1G2YHQYqkp878KLrHm1qqYV5ypdKJnLzp5"
+			]
+		}
+	},
+	"version": 1
+}

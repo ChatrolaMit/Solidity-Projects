@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "getter",
+						"type": "address"
+					}
+				],
+				"name": "CALL",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "getter",
+						"type": "address"
+					}
+				],
+				"name": "SEND",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "getter",
+						"type": "address"
+					}
+				],
+				"name": "TRANSFER",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkbal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NADOS/25_send_eth.sol": "a"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NADOS/25_send_eth.sol": {
+			"keccak256": "0x86c80f26157f7a6da34dc8b5bdd8a2243afc736797fc5ad98bf1110c43e15f98",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9ca27450abe00f95577753d15a0235596a4c4299aa251d6b6f6fcb245be8acb1",
+				"dweb:/ipfs/QmWw3Gqdz1XtVe4pfgPhH7VvF8EkgVSr9vy21dR2BFdkG8"
+			]
+		}
+	},
+	"version": 1
+}

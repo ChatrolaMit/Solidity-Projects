@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/LandLeadureRecord.sol": "land"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/LandLeadureRecord.sol": {
+			"keccak256": "0x77f202dbd6b0444440663663f95cb2dd97a97e1c5b97ac0fd20e45c20e13cb4c",
+			"urls": [
+				"bzz-raw://d54cf07bd656b8f1de1db78b37688f3aca012685da9b6dc64969606f47b636d1",
+				"dweb:/ipfs/Qmdesj9p52DsgnMQUUzBcSmkT6XY9vdipBPwrWGVXFWdR7"
+			]
+		}
+	},
+	"version": 1
+}

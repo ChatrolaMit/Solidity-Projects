@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NADOS/23_revert.sol": "TestToken"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NADOS/23_revert.sol": {
+			"keccak256": "0xf14a7bcdfddffc1a9bb83d914ba146aa5a20ce9e951695011a21392be03dc621",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8fb80a2c622270079c24cd145c5e6a426588b319054ec686842ac198de30099e",
+				"dweb:/ipfs/QmYRVsmhfhsNWQujTTcWji4CJNiQhmMARzYgGWqiepbfbJ"
+			]
+		}
+	},
+	"version": 1
+}

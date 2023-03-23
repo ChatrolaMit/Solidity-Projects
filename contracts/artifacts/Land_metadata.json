@@ -1,0 +1,304 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Farmers_map",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_fid",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_UPIN",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_landTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "uint64",
+						"name": "_SurvayNo",
+						"type": "uint64"
+					},
+					{
+						"internalType": "string",
+						"name": "_area",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_landUse",
+						"type": "string"
+					}
+				],
+				"name": "add_land",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "farmer",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "UPIN",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "landTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "uint64",
+						"name": "SurvayNo",
+						"type": "uint64"
+					},
+					{
+						"internalType": "string",
+						"name": "area",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "landUse",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "a",
+						"type": "string"
+					}
+				],
+				"name": "farmers_arr_add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllFarmers",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_fid",
+						"type": "string"
+					}
+				],
+				"name": "getFarmersLand",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_fid",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_UPIN",
+						"type": "uint256"
+					}
+				],
+				"name": "getFarmersLands",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "UPIN",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "landTitle",
+								"type": "string"
+							},
+							{
+								"internalType": "uint64",
+								"name": "SurvayNo",
+								"type": "uint64"
+							},
+							{
+								"internalType": "string",
+								"name": "area",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "landUse",
+								"type": "string"
+							}
+						],
+						"internalType": "struct Land.Land",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_buyer_fid",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_seller_fid",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_UPIN",
+						"type": "uint256"
+					}
+				],
+				"name": "sell_land",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "upin_to_land",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "UPIN",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "landTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "uint64",
+						"name": "SurvayNo",
+						"type": "uint64"
+					},
+					{
+						"internalType": "string",
+						"name": "area",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "landUse",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RandomNoGenerator.sol": "Land"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/RandomNoGenerator.sol": {
+			"keccak256": "0x8f5a4d3ef29bf8b758235ce7784f417c1ac718ca9ced8dc74bf7e6e031c907b3",
+			"urls": [
+				"bzz-raw://43fe16c90210a49403f95677eb97fea683cb0298182e0741a4e86f2cfe81e166",
+				"dweb:/ipfs/Qma1qfqL2oizkyFUXVB9jztYshVovbg81RfRfX5AdDoeCt"
+			]
+		}
+	},
+	"version": 1
+}

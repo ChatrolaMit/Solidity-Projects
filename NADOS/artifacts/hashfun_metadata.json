@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NADOS/27_Lotery.sol": "hashfun"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NADOS/27_Lotery.sol": {
+			"keccak256": "0xffa6787171d2d4d7ffd609263af5b786054245ff570ff80d80b88e50892bc029",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c16ce8476f200588547e9922f2a317061688ce1f4e6a8c4742e9013198677f80",
+				"dweb:/ipfs/QmbMUS3qJ9ihoy5A2FP1mTC3VLd5AK4KQgJfBTQPPWT3Ym"
+			]
+		}
+	},
+	"version": 1
+}

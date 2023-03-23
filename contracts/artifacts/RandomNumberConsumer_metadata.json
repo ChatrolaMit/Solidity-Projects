@@ -1,0 +1,146 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes32",
+						"name": "requestId",
+						"type": "bytes32"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "randomness",
+						"type": "uint256"
+					}
+				],
+				"name": "RequestFulfilled",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getRandomNumber",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "requestId",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "randomResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "requestId",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "randomness",
+						"type": "uint256"
+					}
+				],
+				"name": "rawFulfillRandomness",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"constructor": {
+					"notice": "Constructor inherits VRFConsumerBase Network: Goerli Chainlink VRF Coordinator address: 0x2bce784e69d2Ff36c71edcB9F88358dB0DfB55b4 LINK token address: 0x326C977E6efc84E512bB9C30f76E30c160eD06FB Key Hash: 0x0476f9a745b61ea5c0ab224d3a6e4c99f0b02fce4da01143a4f70aa80ae76e8a"
+				},
+				"getRandomNumber()": {
+					"notice": "Requests randomness"
+				}
+			},
+			"notice": "Request testnet LINK and ETH here: https://faucets.chain.link/ Find information on LINK Token Contracts and get the latest ETH and LINK faucets here: https://docs.chain.link/docs/link-token-contracts/",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RandomNoGenerator.sol": "RandomNumberConsumer"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@chainlink/contracts/src/v0.8/VRFConsumerBase.sol": {
+			"keccak256": "0xff9e7d773545a1a5d73106e72bfb429da79c1cc4d893fb62051df801d2e61469",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://68ff9557dad6da8108073dadcbfe5cd1f45106c2f890443eacd3bf8d59955d4e",
+				"dweb:/ipfs/QmSKYkP8wNX7MKYrCroFps62gdxEwwrZwsz4RLc6XzNkxi"
+			]
+		},
+		"@chainlink/contracts/src/v0.8/VRFRequestIDBase.sol": {
+			"keccak256": "0x2bf1168e8fe548fa990e0aeaf89ef90680f80aa31eeaf901f485df60de51d51b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://79c72d66deaa4b0f251f3f0817f45ebceb71f5b4f94a86ac0e586de99f5af2b6",
+				"dweb:/ipfs/QmcHkApHm5CAynjajcCUYppaKJ9sNWGZTEcSs4tUK8B5K5"
+			]
+		},
+		"@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol": {
+			"keccak256": "0xc7d7cd730d36825485ef4107d93c3ff18b9f3a5a00ea3d5988ba9a0bd70b10c5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8cb1064885ecbcd9c3adba779e190cb4a538e5d4d15aeccb67d3376bdffc94bd",
+				"dweb:/ipfs/QmcQHK6ewve7tFi4XXK65JthQg4kQzApQikWcURJjGt4iQ"
+			]
+		},
+		"contracts/RandomNoGenerator.sol": {
+			"keccak256": "0x84189fff2d3cb9d8b4d871245f7f3989cb2ad71eb8dce6089f1d3ea933f70d66",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5edb747781362bd150c10198dbbf2807050a93ef87c406894b9c2f2c9330de09",
+				"dweb:/ipfs/QmdH6wtZnyTGzdPQ9kjeGmzwSjmR5CbtwhgGBMrU9SXmZU"
+			]
+		}
+	},
+	"version": 1
+}

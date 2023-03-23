@@ -1,0 +1,309 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "UPIN",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "oldSurvey",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "newSurvey",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "totalAss",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "owner",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "district",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "taluka",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "village",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "totalArea",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "landUse",
+								"type": "string"
+							}
+						],
+						"indexed": false,
+						"internalType": "struct SimpleStorage.farmDetails",
+						"name": "a",
+						"type": "tuple"
+					}
+				],
+				"name": "bal",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "farmerToFarm",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "UPIN",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "oldSurvey",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "newSurvey",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalAss",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "owner",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "district",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "taluka",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "village",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "totalArea",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "landUse",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "farmerId",
+						"type": "string"
+					}
+				],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "UPIN",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "oldSurvey",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "newSurvey",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "totalAss",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "owner",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "district",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "taluka",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "village",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "totalArea",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "landUse",
+								"type": "string"
+							}
+						],
+						"internalType": "struct SimpleStorage.farmDetails",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "farmID",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "UPIN",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "oldSurvey",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "newSurvey",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalAss",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "owner",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "district",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "taluka",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "village",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "totalArea",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "landUse",
+						"type": "string"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NADOS/Test.sol": "SimpleStorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NADOS/Test.sol": {
+			"keccak256": "0x365547d2c0ccdc7b4dd4a3573c822d055f9288c32e8a695eb09b611ca5b160db",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b593d3f56304f02ab60f76bdb28efd1f40d1997d94f6a60461f2c0bbaed28dc9",
+				"dweb:/ipfs/QmZ9zjRu1kA8naQj3xXJAB9LPKkSe4sRcveYD1EnzupNXk"
+			]
+		}
+	},
+	"version": 1
+}

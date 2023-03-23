@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_UPIN",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_land_address",
+						"type": "address"
+					}
+				],
+				"name": "addLand",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "upin",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "upinToAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"land_record.sol": "UpinToAddress"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"land_info.sol": {
+			"keccak256": "0x936992bf52704f5439203f1dea745de8ce287edbeb4f0b34fa988197765e0e81",
+			"urls": [
+				"bzz-raw://0fdbe9046d57cb5a21184c2eb884ab90516291bbc3aa03f6257a91a456ed7377",
+				"dweb:/ipfs/QmdycLoJMdrD8oGNBE9CEETagpN3rB7VsAmiyKArp6iaEC"
+			]
+		},
+		"land_record.sol": {
+			"keccak256": "0x640e5427a4700ad2a262bbd085705343ee20980fdd311f03814b15342b2fe351",
+			"urls": [
+				"bzz-raw://034c21c589836b60d3c5bff09371f5d41b8eeb7742a1f492188c12d27c48c578",
+				"dweb:/ipfs/QmXo2TuYb1pPLgmCvNAbU1e2YYtjuKdJXt958wKoTTT9xn"
+			]
+		}
+	},
+	"version": 1
+}

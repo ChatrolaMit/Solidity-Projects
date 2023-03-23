@@ -1,0 +1,312 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_UPIN",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint64",
+						"name": "_newSurvayNo",
+						"type": "uint64"
+					},
+					{
+						"internalType": "string",
+						"name": "_district",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_taluka",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_village",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_landTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "uint64",
+						"name": "_oldSurvayNo",
+						"type": "uint64"
+					},
+					{
+						"internalType": "string",
+						"name": "_area",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_totalAssesment",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_landUse",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_tenure",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "UPIN",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "area",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "district",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "landTitle",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "landUse",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "newSurvayNo",
+				"outputs": [
+					{
+						"internalType": "uint64",
+						"name": "",
+						"type": "uint64"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "oldSurvayNo",
+				"outputs": [
+					{
+						"internalType": "uint64",
+						"name": "",
+						"type": "uint64"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "taluka",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tenure",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalAssesment",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_UPIN",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint64",
+						"name": "_newSurvayNo",
+						"type": "uint64"
+					},
+					{
+						"internalType": "string",
+						"name": "_district",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_taluka",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_village",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_landTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "uint64",
+						"name": "_oldSurvayNo",
+						"type": "uint64"
+					},
+					{
+						"internalType": "string",
+						"name": "_area",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_totalAssesment",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_landUse",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_tenure",
+						"type": "string"
+					}
+				],
+				"name": "updateLand",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "village",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"land_info.sol": "LandRecord"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"land_info.sol": {
+			"keccak256": "0x936992bf52704f5439203f1dea745de8ce287edbeb4f0b34fa988197765e0e81",
+			"urls": [
+				"bzz-raw://0fdbe9046d57cb5a21184c2eb884ab90516291bbc3aa03f6257a91a456ed7377",
+				"dweb:/ipfs/QmdycLoJMdrD8oGNBE9CEETagpN3rB7VsAmiyKArp6iaEC"
+			]
+		}
+	},
+	"version": 1
+}

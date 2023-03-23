@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/5_OVERFLOW.sol": "overflow"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/5_OVERFLOW.sol": {
+			"keccak256": "0x89164011b59f7ade5b8dafbbac86e7d84d68ddddc2bb92c1c1c81af2f3069464",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3ce774f5bb6a7228186cbacbf4f3d0a2a770ca4a593a4fb8686f49c07b8cfba0",
+				"dweb:/ipfs/QmSN1on48L66ifs4UyjZHmZtnaQvDnxmhCCa7X1YYdwj4k"
+			]
+		}
+	},
+	"version": 1
+}

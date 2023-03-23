@@ -1,0 +1,115 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_f_id",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_f_address",
+						"type": "address"
+					}
+				],
+				"name": "addLand",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "peoples",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "upinToAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"people_info.sol": "Peoples"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"land_info.sol": {
+			"keccak256": "0x936992bf52704f5439203f1dea745de8ce287edbeb4f0b34fa988197765e0e81",
+			"urls": [
+				"bzz-raw://0fdbe9046d57cb5a21184c2eb884ab90516291bbc3aa03f6257a91a456ed7377",
+				"dweb:/ipfs/QmdycLoJMdrD8oGNBE9CEETagpN3rB7VsAmiyKArp6iaEC"
+			]
+		},
+		"land_record.sol": {
+			"keccak256": "0x640e5427a4700ad2a262bbd085705343ee20980fdd311f03814b15342b2fe351",
+			"urls": [
+				"bzz-raw://034c21c589836b60d3c5bff09371f5d41b8eeb7742a1f492188c12d27c48c578",
+				"dweb:/ipfs/QmXo2TuYb1pPLgmCvNAbU1e2YYtjuKdJXt958wKoTTT9xn"
+			]
+		},
+		"people_info.sol": {
+			"keccak256": "0xede0424a4eb6841095cad4c20920c75e928a5736e4eaaeee5a4bb8218d1443c7",
+			"urls": [
+				"bzz-raw://418e306f70332283230f14fc78aa852e2cdc000cc585003697557931bd8e0f83",
+				"dweb:/ipfs/QmRDGbv96E2anGzxAHkFWizYZEdksfPKTPVfuoLzRw4KX7"
+			]
+		}
+	},
+	"version": 1
+}

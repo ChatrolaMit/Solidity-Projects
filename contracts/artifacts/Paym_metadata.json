@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/4_Payme.sol": "Paym"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/4_Payme.sol": {
+			"keccak256": "0x3af6d210848a055f430b316fa428520c4b3346279a74d555dda9c5de2ace86b9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0b333795dd7019686950bc738c789fd6ffe502a0128a300be21dec7fe2380652",
+				"dweb:/ipfs/QmSK6f9STFgkTa6NtGYRZRDC7cjNXfVatSfxK7ugitfvAx"
+			]
+		}
+	},
+	"version": 1
+}

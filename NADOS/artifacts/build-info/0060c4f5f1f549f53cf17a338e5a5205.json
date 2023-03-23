@@ -1,0 +1,365 @@
+{
+	"id": "0060c4f5f1f549f53cf17a338e5a5205",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.17",
+	"solcLongVersion": "0.8.17+commit.8df45f5f",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"NADOS/24_recieve_and_fallback.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.4;\r\n\r\ncontract a{\r\n      \r\n      fallback() external payable {\r\n\r\n      }\r\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"NADOS/24_recieve_and_fallback.sol": {
+				"a": {
+					"abi": [
+						{
+							"stateMutability": "payable",
+							"type": "fallback"
+						}
+					],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"NADOS/24_recieve_and_fallback.sol\":60:130  contract a{... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"NADOS/24_recieve_and_fallback.sol\":60:130  contract a{... */\n      mstore(0x40, 0x80)\n      stop\n\n    auxdata: 0xa2646970667358221220eaeef30e26ed4c8cf96ff8c0077434464c29a9c703a891ff9a4100fae495c98664736f6c63430008110033\n}\n",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600f57600080fd5b50603c80601d6000396000f3fe608060405200fea2646970667358221220eaeef30e26ed4c8cf96ff8c0077434464c29a9c703a891ff9a4100fae495c98664736f6c63430008110033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3C DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE STOP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xEA 0xEE RETURN 0xE 0x26 0xED 0x4C DUP13 0xF9 PUSH16 0xF8C0077434464C29A9C703A891FF9A41 STOP STATICCALL 0xE4 SWAP6 0xC9 DUP7 PUSH5 0x736F6C6343 STOP ADDMOD GT STOP CALLER ",
+							"sourceMap": "60:70:0:-:0;;;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {
+								"@_5": {
+									"entryPoint": null,
+									"id": 5,
+									"parameterSlots": 0,
+									"returnSlots": 0
+								}
+							},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "608060405200fea2646970667358221220eaeef30e26ed4c8cf96ff8c0077434464c29a9c703a891ff9a4100fae495c98664736f6c63430008110033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE STOP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xEA 0xEE RETURN 0xE 0x26 0xED 0x4C DUP13 0xF9 PUSH16 0xF8C0077434464C29A9C703A891FF9A41 STOP STATICCALL 0xE4 SWAP6 0xC9 DUP7 PUSH5 0x736F6C6343 STOP ADDMOD GT STOP CALLER ",
+							"sourceMap": "60:70:0:-:0;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12000",
+								"executionCost": "66",
+								"totalCost": "12066"
+							},
+							"external": {
+								"": "18"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 60,
+									"end": 130,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a2646970667358221220eaeef30e26ed4c8cf96ff8c0077434464c29a9c703a891ff9a4100fae495c98664736f6c63430008110033",
+									".code": [
+										{
+											"begin": 60,
+											"end": 130,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 60,
+											"end": 130,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 60,
+											"end": 130,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 60,
+											"end": 130,
+											"name": "STOP",
+											"source": 0
+										}
+									]
+								}
+							},
+							"sourceList": [
+								"NADOS/24_recieve_and_fallback.sol",
+								"#utility.yul"
+							]
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"stateMutability\":\"payable\",\"type\":\"fallback\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"NADOS/24_recieve_and_fallback.sol\":\"a\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"NADOS/24_recieve_and_fallback.sol\":{\"keccak256\":\"0xe0e17bda813b2b76ba4428e29dd0284862e6ee328bee615b772cf8faa8aa1d32\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://446c4997056439454f8dc244d8a4ba23c0a325c932c522ed2d9c00b19a990cc0\",\"dweb:/ipfs/QmcPfMHjb9DpjHV85uceBXdm2ewrVKQupWUVudKtHM7wkS\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"NADOS/24_recieve_and_fallback.sol": {
+				"ast": {
+					"absolutePath": "NADOS/24_recieve_and_fallback.sol",
+					"exportedSymbols": {
+						"a": [
+							6
+						]
+					},
+					"id": 7,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".4"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "33:23:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"canonicalName": "a",
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 6,
+							"linearizedBaseContracts": [
+								6
+							],
+							"name": "a",
+							"nameLocation": "69:1:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [
+								{
+									"body": {
+										"id": 4,
+										"nodeType": "Block",
+										"src": "115:12:0",
+										"statements": []
+									},
+									"id": 5,
+									"implemented": true,
+									"kind": "fallback",
+									"modifiers": [],
+									"name": "",
+									"nameLocation": "-1:-1:-1",
+									"nodeType": "FunctionDefinition",
+									"parameters": {
+										"id": 2,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "95:2:0"
+									},
+									"returnParameters": {
+										"id": 3,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "115:0:0"
+									},
+									"scope": 6,
+									"src": "87:40:0",
+									"stateMutability": "payable",
+									"virtual": false,
+									"visibility": "external"
+								}
+							],
+							"scope": 7,
+							"src": "60:70:0",
+							"usedErrors": []
+						}
+					],
+					"src": "33:97:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

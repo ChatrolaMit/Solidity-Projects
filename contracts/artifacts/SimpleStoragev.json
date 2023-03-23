@@ -1,0 +1,56 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212202be9b1e2473ba96fa1a1f72bf03e0d10d03a95e31e6110a4d192ae552e8b6ca064736f6c634300060c0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x2B 0xE9 0xB1 0xE2 SELFBALANCE EXTCODESIZE 0xA9 PUSH16 0xA1A1F72BF03E0D10D03A95E31E6110A4 0xD1 SWAP3 0xAE SSTORE 0x2E DUP12 PUSH13 0xA064736F6C634300060C003300 ",
+			"sourceMap": "97:35:1:-:0;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052600080fdfea26469706673582212202be9b1e2473ba96fa1a1f72bf03e0d10d03a95e31e6110a4d192ae552e8b6ca064736f6c634300060c0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x2B 0xE9 0xB1 0xE2 SELFBALANCE EXTCODESIZE 0xA9 PUSH16 0xA1A1F72BF03E0D10D03A95E31E6110A4 0xD1 SWAP3 0xAE SSTORE 0x2E DUP12 PUSH13 0xA064736F6C634300060C003300 ",
+			"sourceMap": "97:35:1:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "66",
+				"totalCost": "12666"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
