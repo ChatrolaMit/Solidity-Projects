@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NULL-AHM/RE - Entrancy Attack/Vulnerable.sol": "vulnerable"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NULL-AHM/RE - Entrancy Attack/Vulnerable.sol": {
+			"keccak256": "0x4edf6d2e219294cf9737b7f25f526052d65a030ffd2ffbc2c47e4c014ed54b82",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1dc0c0512c48c002dd69005ca6b003be8164d1a1cd09b9ac5c7f43a953226f8a",
+				"dweb:/ipfs/Qmdmwi3TFopKJ9dZoxy5ik69pttzwN7jdmxL4jceJhAGFH"
+			]
+		}
+	},
+	"version": 1
+}
